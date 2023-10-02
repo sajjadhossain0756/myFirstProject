@@ -1,0 +1,108 @@
+
+
+body{
+    overflow-x: hidden;
+    width: 100%;
+}
+.mobile{
+    margin: 20px 10px 0 0;
+}
+.d-block{
+    margin-top: -14px;
+}
+.p-first{
+    color: #34ad54;
+    margin: 0;
+    font-size: 22px;
+}
+.p-text{
+    font-size: 14px;
+    color: gray;
+}
+.heroimg a{
+    position: relative;
+    padding: 10px 30px;
+    background: #fff;
+    color: #fff;
+    text-decoration: none;
+    letter-spacing: 0.15em;
+    font-weight: 500;
+    transition: 1s;
+    font-size: 2em;
+}
+.heroimg a:hover{
+    background: #1e9bff;
+    letter-spacing: 0.25em;
+    box-shadow: 0 0 50px #1e9bff;
+    color: #1e9bff;
+}
+.heroimg a::before{
+    content: "";
+    position: absolute;
+    inset: 4px;
+    background: #27282c;
+}
+.heroimg a span{
+    position: relative;
+
+}
+.heroimg a i{
+    position: absolute;
+    display: block;
+    inset: 0;
+}
+.heroimg a i::before{
+    position:absolute ;
+    height: 4px;
+    width: 25px;
+    content: "";
+    top: 0;
+    left: 80%;
+    background: #27282c;
+    transition: 1s;
+}
+.heroimg a:hover i::before{
+    width: 25px;
+    left: 20%;
+}
+.heroimg a i::after{
+    position:absolute ;
+    height: 4px;
+    width: 25px;
+    content: "";
+    bottom: 0;
+    left: 20%;
+    background: #27282c;
+    transition: 1s;
+}
+.heroimg a:hover i::after{
+    width: 25px;
+    left: 80%;
+}
+.card-section:hover{
+    transform: translateY(60px);
+    transition: 1s;
+}
+
+    
+    
+
+.small-text{
+    font-size: 18px;
+}
+@media screen and (max-width:576px) {
+    .heroimg a{
+        position: relative;
+        padding: 10px 20px;
+        background: #fff;
+        color: #fff;
+        text-decoration: none;
+        letter-spacing: 0.15em;
+        font-weight: 400;
+        transition: 1s;
+        font-size: 1.5em;
+        left: 20px;
+    }
+
+}
+    

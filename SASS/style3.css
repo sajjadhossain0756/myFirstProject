@@ -1,0 +1,863 @@
+/**nav-top section start here**/
+nav .nav-a {
+  font-size: 40px;
+}
+
+nav .nav-a .pran {
+  color: #ff9933;
+}
+
+nav .nav-a .fresh {
+  color: #34ad54;
+}
+
+nav .nav-link i {
+  color: #34ad54;
+}
+
+/**nav-top section end here**/
+/**nav-bottom section start here**/
+.nav-bottom {
+  background-color: #34ad54;
+}
+
+.nav-bottom ul li {
+  margin: 10px;
+}
+
+.nav-bottom ul li .active {
+  background-color: #ff9933;
+}
+
+.nav-bottom ul li a {
+  font-weight: bold;
+  padding: 20px;
+}
+
+.nav-bottom ul li a:hover {
+  background-color: #ff9933;
+}
+
+.nav-bottom .dropdown-menu {
+  background-color: #34ad54;
+}
+
+/**nav-bottom section end here**/
+/**hero-image section start here**/
+.heroimg {
+  background-image: url(../images/heroimg.png);
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 500px;
+}
+
+.heroimg .main-div {
+  width: 100%;
+  height: 500px;
+}
+
+.heroimg .main-div .title-part {
+  position: absolute;
+  bottom: 200px;
+  left: 80px;
+  width: 800px;
+  z-index: 1;
+}
+
+.heroimg .main-div .title-part h2 {
+  padding-left: 5px;
+}
+
+.heroimg .main-div .title-part .button-part {
+  padding-left: 5px;
+}
+
+.heroimg .main-div .img-div {
+  position: absolute;
+  bottom: 0px;
+  right: 80px;
+}
+
+.heroimg .main-div .img-div img {
+  height: 500px;
+  width: 500px;
+}
+
+/**hero-image section end here**/
+/**contact section start here**/
+.contact .title-div {
+  width: 500px;
+  margin: 0 auto;
+}
+
+.contact .form {
+  background-color: #34ad54;
+  padding: 10px 0 10px 20px;
+}
+
+.contact .form div {
+  padding: 5px 7px;
+}
+
+.contact .form div input {
+  width: 90%;
+  padding: 8px 10px;
+}
+
+.contact .form div select {
+  width: 90%;
+  padding: 8px 10px;
+}
+
+.contact .form div textarea {
+  width: 90%;
+  padding: 8px 10px;
+  resize: none;
+}
+
+.contact .form div button {
+  width: 90%;
+  text-align: center;
+  border: none;
+  background-color: #ff9933;
+  padding: 10px 0;
+  color: white;
+  font-weight: bold;
+}
+
+.contact .location {
+  background-color: #ff9933;
+  padding: 20px 30px;
+  color: white;
+}
+
+.contact .location div {
+  padding: 5px 0 0 0;
+}
+
+.contact .location div i {
+  background-color: #34ad54;
+  height: 38px;
+  width: 38px;
+  font-size: 19px;
+  border-radius: 50%;
+  padding: 10px 10px 20px 10px;
+}
+
+.contact iframe {
+  height: 360px;
+  width: 380px;
+  margin-top: 7px;
+}
+
+/**contact section end here**/
+/**card section start here**/
+.card-section .row {
+  margin-top: -60px;
+}
+
+.card-section .row .card-one {
+  background-color: #34ad54;
+  height: 300px;
+}
+
+.card-section .row .card-one .title {
+  position: absolute;
+  color: white;
+  bottom: 100px;
+  left: 50px;
+  z-index: 1;
+}
+
+.card-section .row .card-one .image img {
+  position: absolute;
+  bottom: -20px;
+  right: -80px;
+  height: 300px;
+  opacity: 0.8;
+}
+
+.card-section .row .card-two {
+  background-color: #ff9933;
+  height: 300px;
+}
+
+.card-section .row .card-two .title {
+  position: absolute;
+  color: white;
+  bottom: 100px;
+  left: 50px;
+  z-index: 1;
+}
+
+.card-section .row .card-two .image img {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  height: 300px;
+  opacity: 0.8;
+}
+
+/**card section end here**/
+/**about-us section start here**/
+.about-us .img-div {
+  border: 4px solid #34ad54;
+  border-bottom: none;
+}
+
+.about-us .img-div .div-1 {
+  margin-bottom: -5px;
+}
+
+.about-us .img-div .div-1 img {
+  height: 400px;
+}
+
+.about-us .row .icon {
+  font-size: 40px;
+  padding: 5px;
+  color: #34ad54;
+}
+
+/**about-us section ends here**/
+/**score section start here**/
+.score {
+  background-color: #34ad54;
+}
+
+.score .row div i {
+  color: white;
+  background-color: #ff9933;
+  border-radius: 50%;
+  height: 37px;
+  width: 37px;
+  font-size: 18px;
+}
+
+/**score section end here**/
+/**service section start here**/
+.service .row .div-first {
+  padding: 10px 20px;
+}
+
+.service .row .div-first a {
+  width: 100px;
+  height: 40px;
+  padding: 10px 20px;
+  color: white;
+  background-color: #34ad54;
+  text-decoration: none;
+}
+
+.service .row .div-all {
+  padding: 30px 30px;
+  background-color: #F6FFF2;
+  -webkit-box-shadow: 2px 2px 2px 2px gray;
+          box-shadow: 2px 2px 2px 2px gray;
+}
+
+.service .row .div-all i {
+  font-size: 80px;
+  padding: 5px;
+  color: #34ad54;
+  padding: 10px;
+}
+
+/**service section end here**/
+/**feature section start here**/
+.feature {
+  background-color: #34ad54;
+  margin: 50px 0 100px 0 !important;
+}
+
+.feature .p-one {
+  margin-bottom: -5px;
+  font-size: 20px;
+}
+
+.feature .p-text {
+  text-align: center;
+}
+
+.feature .image {
+  margin-bottom: -30px;
+}
+
+.feature .image img {
+  width: 450px;
+  height: 200px;
+  padding-left: 40px;
+}
+
+.feature .icon {
+  height: 37px;
+  width: 37px;
+  background-color: #ff9933;
+  border-radius: 50%;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+/**feature section end here**/
+/**product section start here**/
+.product .div-one {
+  width: 500px;
+  margin: 0 auto;
+}
+
+.product .div-one .fw-bold {
+  font-size: 30px;
+}
+
+.product .last-part {
+  background-color: #34ad54;
+  height: 250px;
+  width: 100%;
+  margin-top: 250px;
+}
+
+.product .last-part .btn-div {
+  width: 90px;
+  position: absolute;
+  bottom: 0;
+  left: 480px;
+}
+
+.product .last-part .image-1 {
+  position: absolute;
+  bottom: -10px;
+  left: -40px;
+  height: 200px;
+  width: 300px;
+}
+
+.product .last-part .image-2 {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  height: 200px;
+  width: 200px;
+}
+
+.product .last-part div img {
+  height: 200px;
+  width: 250px;
+}
+
+.product .last-part .card-one {
+  height: 300px;
+  width: 220px;
+  padding: 0 5px;
+  position: absolute;
+  bottom: 150px;
+  left: 60px;
+  z-index: 1;
+  background-color: white;
+}
+
+.product .last-part .card-two {
+  height: 300px;
+  width: 220px;
+  padding: 0 5px;
+  position: absolute;
+  bottom: 150px;
+  left: 320px;
+  z-index: 1;
+  background-color: white;
+}
+
+.product .last-part .card-three {
+  height: 300px;
+  width: 220px;
+  padding: 0 5px;
+  position: absolute;
+  bottom: 150px;
+  left: 580px;
+  z-index: 1;
+  background-color: white;
+}
+
+.product .last-part .card-four {
+  height: 300px;
+  width: 220px;
+  padding: 0 5px;
+  position: absolute;
+  bottom: 150px;
+  left: 840px;
+  z-index: 1;
+  background-color: white;
+}
+
+/**product section end here**/
+/**client review section start here**/
+.client-review {
+  background-image: url(../images/heroimg.png);
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 500px;
+  margin: 100px 0 !important;
+}
+
+.client-review .image-1 img {
+  position: absolute;
+  bottom: 0;
+  left: 40px;
+  height: 500px;
+  width: 300px;
+}
+
+.client-review .title-div {
+  position: absolute;
+  width: 670px;
+  height: 380px;
+  bottom: 70px;
+  left: -40px;
+  z-index: 1;
+}
+
+.client-review .title-div .main-div {
+  height: 380px;
+  width: 670px;
+  background-color: #34ad54;
+  opacity: 0.8;
+}
+
+.client-review .title-div .main-div .description {
+  position: absolute;
+  top: 20px;
+  left: 30px;
+  text-align: center;
+}
+
+.client-review .title-div .main-div .description img {
+  height: 120px;
+  width: 120px;
+  border-radius: 50%;
+  border: 5px solid #ff9933;
+  padding: 10px;
+}
+
+.client-review .title-div .main-div .description blockquote {
+  text-align: justify;
+  text-align-last: center;
+  width: 570px;
+}
+
+.client-review .title-div .main-div .description blockquote cite {
+  font-size: 20px;
+  border-top: 1px solid white;
+  border-radius: 0;
+  width: 200px;
+  margin: 30px 0 0 130px;
+}
+
+.client-review .image-2 img {
+  position: absolute;
+  bottom: 0;
+  right: 40px;
+  height: 500px;
+  width: 300px;
+}
+
+/**client review section end here**/
+/**professional section start here**/
+.professional .div-1 {
+  width: 500px;
+  margin: 0 auto;
+}
+
+.professional .div-1 .p-one {
+  color: #34ad54;
+  margin-bottom: -10px;
+}
+
+.professional .row .main-div {
+  background-image: url(../images/heroimg.png);
+  background-position: center;
+  background-size: cover;
+  width: 300px;
+  height: 350px;
+}
+
+.professional .row .main-div figure img {
+  position: absolute;
+  bottom: 0;
+  left: 15px;
+  height: 340px;
+  width: 250px;
+  margin-left: -20px;
+}
+
+.professional .row .main-div figcaption .background {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background-color: #34ad54;
+  width: 300px;
+  height: 80px;
+  opacity: 0.7;
+}
+
+.professional .row .main-div figcaption .title {
+  position: absolute;
+  bottom: 0;
+  left: 10px;
+  width: 300px;
+}
+
+.professional .row .main-div figcaption .icon-div {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  background-color: #ff9933;
+  height: 350px;
+  width: 50px;
+  z-index: 1;
+  padding: 50px 12px;
+}
+
+.professional .row .main-div figcaption .icon-div a {
+  padding: 10px 0;
+}
+
+.professional .row .main-div figcaption .icon-div a i {
+  font-size: 30px;
+}
+
+/**professional section end here**/
+/**blog section start here**/
+.blog .heading {
+  width: 500px;
+  margin: 0 auto;
+}
+
+.blog .main-div {
+  height: 350px;
+  width: 300px;
+}
+
+.blog .main-div figure img {
+  height: 350px;
+  width: 290px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  opacity: 0.5;
+}
+
+.blog .main-div figcaption .background {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background-color: #34ad54;
+  opacity: 0.6;
+  width: 290px;
+  height: 120px;
+  z-index: 1;
+}
+
+.blog .main-div figcaption .title {
+  position: absolute;
+  bottom: 5px;
+  left: 20px;
+  width: 230px;
+  color: white;
+  z-index: 2;
+}
+
+/**blog section end here**/
+/**footer section start here**/
+footer {
+  background-color: #34ad54;
+}
+
+footer ul {
+  list-style: none;
+}
+
+footer ul .icon-li i {
+  padding: 0 6px 0 0;
+  font-size: 35px;
+  color: #ff9933;
+}
+
+footer .ul-div li {
+  padding: 3px 0;
+}
+
+footer .newsletter-part {
+  position: absolute;
+  right: 70px;
+  top: -30px;
+  bottom: 72px;
+  background-color: #ff9933;
+  padding: 65px 25px;
+  width: 280px;
+}
+
+footer .newsletter-part .input-div input {
+  width: 140px;
+  padding: 10px 20px;
+}
+
+footer .newsletter-part .input-div button {
+  width: 80px;
+  padding: 12px 5px;
+  border: none;
+  background-color: #34ad54;
+  margin-left: -10px;
+}
+
+footer .copyright div {
+  background-color: #ff9933;
+  width: 50px;
+  height: 70px;
+  padding: 10px;
+  display: inline-block;
+  position: absolute;
+  bottom: 5px;
+  right: 20px;
+}
+
+footer .copyright div i {
+  color: white;
+  font-size: 26px;
+}
+
+/**footer section end here**/
+/**style for mobile device start here**/
+@media screen and (max-width: 576px) {
+  /**nav section start here**/
+  .nav-div {
+    text-align: center;
+  }
+  .nav-div .icon-ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal !important;
+    -webkit-box-direction: normal !important;
+        -ms-flex-direction: row !important;
+            flex-direction: row !important;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
+  /**heroimage section start here**/
+  .heroimg .title-part {
+    width: 140px;
+  }
+  .heroimg .title-part h2 {
+    padding-left: 30px;
+  }
+  .heroimg .title-part .button-part {
+    margin-left: -40px;
+  }
+  /**contact us section start here**/
+  .contact iframe {
+    height: 385px;
+    width: 450px;
+    margin: 20px 20px 20px 10px;
+  }
+  /**feature section start here**/
+  .feature .row div {
+    text-align: center;
+  }
+  .feature .row .col-lg-3 {
+    padding: 0 50px;
+    margin: 0 auto;
+  }
+  .feature .icon {
+    padding-bottom: 30px;
+  }
+  /**product section start here**/
+  .product .div-one {
+    margin-left: -50px;
+  }
+  .product .div-one .fw-bold {
+    font-size: 20px;
+  }
+  .product .last-part {
+    height: 1150px;
+  }
+  .product .last-part .btn-div {
+    width: 90px;
+    position: absolute;
+    bottom: 0;
+    left: 160px;
+  }
+  .product .last-part .card-one {
+    bottom: 1050px;
+    left: 95px;
+  }
+  .product .last-part .card-two {
+    bottom: 730px;
+    left: 95px;
+  }
+  .product .last-part .card-three {
+    bottom: 410px;
+    left: 95px;
+  }
+  .product .last-part .card-four {
+    bottom: 80px;
+    left: 95px;
+  }
+  .about-us .row .about {
+    padding-top: 30px;
+  }
+  /**client review section start here**/
+  .client-review .image-1 img {
+    left: 0;
+    bottom: 0;
+    height: 400px;
+    width: 200px;
+  }
+  .client-review .title-div {
+    width: 400px;
+  }
+  .client-review .title-div .first-div {
+    width: 350px;
+  }
+  .client-review .title-div .main-div {
+    width: 380px;
+  }
+  .client-review .title-div .main-div .description {
+    top: 10px;
+    left: 5px;
+  }
+  .client-review .title-div .main-div .description blockquote {
+    font-size: 12px;
+    width: 330px;
+  }
+  .client-review .title-div .main-div .description blockquote cite {
+    margin-left: 10px;
+  }
+  .client-review .image-2 img {
+    right: 0;
+    bottom: 0;
+    height: 400px;
+    width: 200px;
+  }
+  /**professional section start here**/
+  .professional .div-1 {
+    width: 400px;
+  }
+  .professional .row {
+    position: relative;
+    left: -70px;
+    top: 10px;
+  }
+  /**blog section start here**/
+  .blog .row {
+    padding-left: 130px;
+  }
+  /**footer section start here**/
+  footer .newsletter-part {
+    bottom: 300px;
+    right: 0;
+    height: 300px;
+    width: 200px;
+    padding: 60px 5px;
+  }
+  footer .newsletter-part .input-div input {
+    padding: 5px;
+    width: 100px;
+  }
+  footer .newsletter-part .input-div button {
+    padding: 7px 5px;
+  }
+  footer .row div {
+    padding: 25px 0;
+  }
+  footer .copyright p {
+    width: 300px;
+    margin: 0 auto;
+  }
+  footer .copyright div {
+    right: 5px;
+    height: 80px;
+    bottom: 0;
+  }
+  footer .copyright i {
+    font-size: 40px;
+    padding-top: 20px;
+  }
+}
+
+/**style for mobile device end here**/
+/**style for tablet device start here**/
+@media screen and (max-width: 786px) {
+  /**product section start here**/
+  .product .last-div {
+    height: 520px;
+  }
+  .product .last-div .card-1 {
+    bottom: 400px;
+    left: 25px;
+  }
+  .product .last-div .card-2 {
+    bottom: 400px;
+    left: 270px;
+  }
+  .product .last-div .card-3 {
+    bottom: 80px;
+    left: 25px;
+  }
+  .product .last-div .card-4 {
+    bottom: 80px;
+    left: 270px;
+  }
+  /**professional section start here**/
+  .professional .div-1 {
+    width: 400px;
+  }
+  .professional .row {
+    padding-left: 150px;
+  }
+  /**feature section start here**/
+  .feature .row div {
+    text-align: center;
+  }
+  .feature .row .col-lg-3 {
+    padding: 0 50px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  .feature .icon {
+    padding-bottom: 30px;
+  }
+  /**footer section start here**/
+  footer .newsletter {
+    bottom: 300px;
+    right: 0px;
+    height: 300px;
+    width: 260px;
+  }
+  footer .newsletter .input-div input {
+    padding: 5px;
+    width: 100px;
+  }
+  footer .newsletter .input-div button {
+    padding: 7px 5px;
+  }
+  footer .row div {
+    padding: 25px 0;
+  }
+  footer .copyright p {
+    width: 300px;
+    margin: 0 auto;
+  }
+  footer .copyright div {
+    right: 5px;
+    height: 80px;
+    bottom: 0;
+  }
+  footer .copyright i {
+    font-size: 40px;
+    padding-top: 20px;
+  }
+}
+
+/**style for tablet device end here**/
+/*# sourceMappingURL=style3.css.map */

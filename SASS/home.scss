@@ -1,0 +1,1178 @@
+$bg-color:#34ad54;
+$primary-color:brown;
+$secondary-color:#ff9933;
+
+
+@import "btnStyle";
+@import"iconStyle";
+@import"cardStyle";
+
+/**nav-top section start here**/
+
+nav{
+   .nav-a{
+    font-size: 40px;
+       .pran{
+          color:$secondary-color; 
+       }
+       .fresh{
+         color:$bg-color;
+       }
+       
+   }
+   .nav-link{
+    i{
+        color:$bg-color;
+       
+    }
+   }
+     
+}
+
+/**nav-top section end here**/
+
+/**nav-bottom section start here**/
+
+.nav-bottom{
+    background-color:$bg-color ;
+    ul{
+        li{
+            margin:10px ;
+            .active{
+                background-color: $secondary-color;
+            }
+           
+           a{
+            font-weight: bold;
+            padding: 20px ;
+            &:hover{
+                background-color: $secondary-color;
+            
+            }
+           }
+        }
+    }
+    .dropdown-menu{
+        background-color: $bg-color;
+    }
+}
+
+/**nav-bottom section end here**/
+
+/**hero-image section start here**/
+
+.heroimg{
+    background-image: url(../images/heroimg.png);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 700px;
+    .main-part{
+        position: relative;
+        width: 100%;
+        height: 700px; 
+
+        .button-1{
+            
+            font-size: 20px;
+        }
+        .button-2{
+            
+            font-size: 20px;
+        }
+        .title-part{
+            position: absolute;
+            top: 170px;
+            left: 200px;
+            width: 800px;
+            z-index: 1;
+           .heading-2{
+            font-size: 70px;
+           }
+        
+         }   
+        
+        .img-div{
+            position: absolute;
+            bottom: -30px;
+            right: 120px;
+            img{
+                display: inline-block;
+                margin-bottom: -50px;
+            }
+        }
+    }
+   
+        
+     
+}
+
+/**hero-image section end here**/
+
+
+
+
+
+
+
+
+/**card section start here**/
+
+.card-section{
+    .row{
+        margin-top: -60px;
+        .card-one{
+            background-color: $bg-color;
+            height: 300px;
+            
+           .title{
+               position: absolute;
+               color: white;
+               bottom: 100px;
+               left: 50px;
+               z-index: 1;
+           }
+           .image{
+             img{
+                position: absolute;
+             bottom: 0px;
+             right: 0px;
+             height: 300px;
+             opacity: 0.8;
+             
+             }
+           }
+       }
+       .card-two{
+        background-color: $secondary-color;
+        height: 300px;
+        
+       .title{
+        position: absolute;
+        color: white;
+        bottom: 100px;
+        left: 50px;
+        z-index: 1;
+       }
+       .image{
+         img{
+            position: absolute;
+         bottom: 0;
+         right: 0;
+         height: 300px;
+         opacity: 0.8;
+         
+         }
+       }
+   }
+    }
+}
+
+/**card section end here**/
+
+/**about-us section start here**/
+
+.about-us{
+    
+    .img-div{
+        border: 4px solid $bg-color;
+        border-bottom: none;
+       img{
+        height: 400px;
+       }
+        
+    }
+    .row{
+        .icon{
+            @include iconStyle (40px);
+            
+        }
+    }
+}
+
+/**about-us section ends here**/
+
+/**score section start here**/
+
+.score{
+    background-color: $bg-color;
+    .row{
+        div{
+            i{
+                color: white;
+                background-color: $secondary-color;
+                border-radius: 50%;
+                height: 37px;
+                width: 37px;
+                font-size: 18px;
+            } 
+                
+               
+        }
+    }
+}
+
+/**score section end here**/
+
+/**service section start here**/
+.service{
+    .row{
+        .div-first{
+            padding: 10px 20px;
+            a{
+                @include btnStyle($bg-color);
+            }
+        }
+        .div-all{
+            padding: 30px 30px;
+            background-color: #F6FFF2;
+            box-shadow: 2px 2px 2px 2px gray;
+            i{
+                @include iconStyle (80px);
+                padding: 10px;
+            }
+        }
+    }
+}
+
+/**service section end here**/
+
+/**feature section start here**/
+
+.feature{
+    background-color: $bg-color;
+    .p-one{
+        margin-bottom: -5px;
+        font-size: 20px;
+    }
+    .p-text{
+        text-align: center;
+    }
+    .image{
+         margin-bottom: -30px;
+        img{
+            width: 450px;
+            height: 200px;
+            padding-left: 40px;
+        }
+    }
+    .icon{
+        height: 37px;
+        width: 37px;
+        background-color: $secondary-color;
+        border-radius: 50%;
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+}
+
+/**feature section end here**/
+
+/**product section start here**/
+  .product{
+      .div-one{
+        width: 500px;
+        margin: 0 auto;
+        .fw-bold{
+            font-size: 30px;
+        }
+
+     }
+     
+        .last-part{
+            background-color: $bg-color;
+            height: 250px;
+            width: 100%;
+            margin-top: 250px;
+
+            .btn-div{
+                width: 90px;
+                position: absolute;
+                bottom: 0;
+                left: 480px;
+            }
+        
+            .image-1{
+                position: absolute;
+                bottom: -10px;
+                left: -40px;
+                height: 200px;
+                width: 300px;
+    
+            }   
+            .image-2{
+                position: absolute;
+                bottom: 0;
+                right: 0;
+                height: 200px;
+                width: 200px;
+    
+            }   
+            div{
+                img{
+                    height: 200px;
+                    width: 250px;
+                }
+            } 
+            .card-one{
+               @include cardStyle(60px); 
+            } 
+            .card-two{
+                @include cardStyle(320px); 
+             } 
+             .card-three{
+                @include cardStyle(580px); 
+             } 
+             .card-four{
+                @include cardStyle(840px); 
+             } 
+            
+        
+       }
+    
+    
+  }
+/**product section end here**/
+
+/**client review section start here**/
+.client-review{
+    background-image: url(../images/heroimg.png);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 500px;
+    .imageOne{
+        img{
+            position: absolute;
+            bottom: 0;
+            left: 80px;
+            height: 500px;
+            width: 300px;
+        }
+        
+    }
+    .title-part{
+        position: absolute;
+        width: 670px;
+        height: 380px;
+        bottom: 70px;
+        left: -40px;
+        z-index: 1;
+        .main-part{
+            height: 380px;
+            width: 670px;
+            background-color: $bg-color;
+            opacity: 0.8;
+            
+            .description{
+                position: absolute;
+                top: 20px;
+                left: 30px;
+                text-align: center;
+                img{
+                    height: 120px;
+                    width: 120px;
+                    border-radius: 50%;
+                    
+                    border: 5px solid $secondary-color;
+                    padding: 10px;
+                }
+                blockquote{
+                    text-align: justify;
+                    text-align-last: center;
+                    width: 570px;
+                    
+    
+                    cite{
+                        font-size:20px ;
+                        border-top: 1px solid white;
+                        border-radius: 0;
+                        width: 200px;
+                        margin: 30px 0 0 130px;
+                    }
+                }
+                
+            }
+        }
+    }
+    .imageTwo{
+        img{
+            position: absolute;
+            bottom: 0;
+            right: 80px;
+            height: 500px;
+            width: 300px;
+        }
+        
+    }
+}
+
+/**client review section end here**/
+
+/**professional section start here**/
+
+.professional{
+    .div-1{
+        width: 500px;
+        margin: 0 auto;
+        .h-1{
+            font-size: 30px;
+        }
+        .p-one{
+            color: $bg-color;
+            margin-bottom: -10px;
+        }
+    }
+    .row{
+        .main-div{
+            background-image: url(../images/heroimg.png);
+            background-position: center;
+            background-size: cover;
+            width: 300px;
+            height: 350px;
+            figure{
+                img{
+                    position: absolute;
+                    bottom: 0;
+                    left: 15px;
+                    height: 340px;
+                    width: 250px;
+                    margin-left: -20px;
+                }
+            }
+            figcaption{
+                .background{
+                    position: absolute;
+                    bottom: 0;
+                    left: 0;
+                    background-color: $bg-color;
+                    width: 300px;
+                    height: 80px;
+                    opacity: 0.7;
+                
+                }
+                .title{
+                    position: absolute;
+                    bottom: 0;
+                    left: 10px;
+                
+                    width: 300px;
+                }
+                .icon-div{
+                    position: absolute;
+                    bottom: 0;
+                    right: 0;
+                    background-color: $secondary-color;
+                    height: 350px;
+                    width: 50px;
+                    z-index: 1;
+                    padding: 50px 12px;
+                    a{
+                        padding: 10px 0;
+                        i{
+                            font-size: 30px;
+
+                        }
+                    }
+                }
+                
+            }
+        }
+    }
+}
+
+/**professional section end here**/
+
+/**blog section start here**/
+
+.blog{
+    .heading{
+        width: 500px;
+        margin: 0 auto;
+    }
+    .main-div{
+        height: 350px;
+        width: 300px;
+        figure{
+            img{
+                height: 350px;
+                width: 290px;
+                position: absolute;
+                bottom: 0;
+                left: 0;
+                opacity: 0.5;
+            }
+        }
+        figcaption{
+            .background{
+                position: absolute;
+                bottom: 0;
+                left: 0;
+                background-color: $bg-color;
+                opacity: 0.6;
+                width: 290px;
+                height: 120px;
+                z-index: 1;
+            }
+            .title{
+                position: absolute;
+            bottom: 5px;
+            left: 20px;
+            width: 230px;
+            color: white;
+            z-index: 2;
+            }
+
+        }
+    }
+}
+
+/**blog section end here**/
+
+/**footer section start here**/
+
+footer{
+    background-color: $bg-color;
+    ul{
+        list-style: none;
+        .icon-li{
+             li{
+                
+             }
+            i{
+                
+                
+                padding: 0 6px 0 0;   
+                font-size: 35px;
+                color: $secondary-color;
+            }
+        }
+    }
+    .ul-div{
+        li{
+            padding: 3px 0;
+        }
+    }
+    .newsletter-part{
+        position: absolute;
+        right: 70px;
+        top: -30px;
+        bottom: 72px;
+        background-color: $secondary-color;
+        padding: 65px 25px;
+        width: 280px;
+        .input-div{
+            input{
+                width: 140px;
+                padding: 10px 20px;
+            }
+            button{
+                width: 80px;
+                padding:12px 5px  ;
+                border: none;
+                background-color: $bg-color;
+                margin-left: -10px;
+                
+            }
+        }
+    }
+    .copyright{
+        div{
+
+            background-color: $secondary-color;
+            width: 50px;
+            height: 70px;
+            padding: 10px;
+            display: inline-block;
+            position: absolute;
+            bottom: 5px;
+            right: 20px;
+            i{
+                color: white;
+                font-size: 26px;
+            }
+        }
+    }
+}
+
+/**footer section end here**/
+
+/**style for mobile device start here**/
+
+@media screen and (max-width:576px) {
+
+    /**nav section start here**/
+    .nav-div{
+        text-align: center;
+        .icon-ul{
+           
+            display: flex;
+            flex-direction: row !important;
+            justify-content: space-around;
+
+           
+        }
+    }
+    /**heroimage section start here**/
+    .heroimg{
+        .main-part{
+            .title-part{
+                left: 30px;
+                max-width: 350px;
+                bottom: 100px;
+                opacity: 0.8;
+                .heading-2{
+                    font-size:40px;
+                }
+                
+                .display-2{
+                    font-size: 20px;
+                }
+                h4{
+                    
+                    font-size: 20px;
+
+                }
+            }
+            .img-div{
+                img{
+                    height: 600px;
+                }
+            }
+        }
+    }
+    /**feature section start here**/
+    .feature{
+        .row{
+            div{
+                text-align: center;
+                
+
+            }
+            .col-lg-3{
+                padding: 0 50px;
+                margin: 0 auto;
+                
+            }
+            
+        }
+        .icon{
+            padding-bottom: 30px;
+        }
+    }
+    /**about section start here**/
+    .about{
+        .row{
+           div{
+            .p-first{
+                padding-top: 40px;
+            }
+           }
+        }
+    }
+    /**product section start here**/
+
+    .product{
+        .div-one{
+            margin-left: -50px;
+            .fw-bold{
+                font-size: 20px ;
+            }
+        }
+        .last-part{
+            height: 1150px;
+            .btn-div{
+                width: 90px;
+                position: absolute;
+                bottom: 0;
+                left: 160px;
+            }
+            .card-one{
+                bottom: 1050px;
+                left: 95px;
+            }
+            .card-two{
+                bottom: 730px;
+                left: 95px;
+            }
+            .card-three{
+                bottom: 410px;
+                left:95px;
+            }
+            .card-four{
+                bottom: 80px;
+                left:95px;
+            }
+        }
+    }
+
+     /**client review section start here**/
+
+    .client-review{
+        .imageOne{
+            img{
+                left: 0;
+                bottom: 0;
+                height: 400px;
+                width: 200px;
+            }
+        }
+        .title-part{
+            width: 400px;
+            left: -80px;
+            .first-div{
+                width: 350px;
+            }
+            .main-part{
+                margin-left: 0;
+                .description{
+                    top: 10px;
+                    left: 5px;
+                    blockquote{
+                        font-size: 12px;
+                        width: 330px;
+                        cite{
+                            margin-left: 10px;
+                        }
+                    }
+                }
+            }
+        }
+        .imageTwo{
+            img{
+                right: 0;
+                bottom: 0;
+                height: 400px;
+                width: 200px;
+            }
+        }
+    }
+    /**professional section start here**/
+    .professional{
+        .div-1{
+            width: 360px;
+            .h-1{
+                font-size: 25px;
+            }
+        }
+        .row{
+            .main-div{
+                figure{
+                    img{
+                        margin-left: 0;
+                    }
+                }
+            }
+            position: relative;
+            left: 70px;
+            top: 10px;
+          } 
+
+        
+    }
+
+    /**blog section start here**/
+     .blog{
+        .heading{
+            width: 350px;
+            display: inline-block;
+            .h1{
+                font-size: 17px;
+                margin-left: 70px;
+            }
+            .p-first{
+                margin-left: 50px;
+            }
+        }
+        
+        .row{
+            padding-left: 70px;
+            
+        }
+     }
+
+    /**footer section start here**/
+    footer{
+        .newsletter-part{
+            bottom: 300px;
+            right: 0;
+            height: 300px;
+            width: 200px;
+            padding:60px 5px;
+            .input-div{
+                input{
+                    padding: 5px;
+                    width: 100px;
+                }
+                button{
+                    padding:7px 5px;
+
+                }
+            }
+        }
+        .row{
+            div{
+                padding: 25px 0;
+            }
+        }
+        .copyright{
+            p{
+                width: 300px;
+                margin: 0 auto;
+            }
+            div{
+                right: 5px;
+                height: 80px;
+                bottom: 0;
+            }
+            i{
+                font-size: 40px;
+                padding-top: 20px;
+            }
+        }
+    }
+    
+}
+
+/**style for mobile device end here**/
+
+
+
+/**style for tablet device start here**/
+@media screen and (min-width:768px){
+
+    /**nav section start here**/
+.nav-div{
+        text-align: center;
+        .icon-ul{
+           
+            display: flex;
+            flex-direction: row !important;
+            justify-content: space-around;
+
+           
+        }
+    }
+/**heroimage section start here**/
+.heroimg{
+    .main-part{
+        .title-part{
+            left: 50px;
+            width: 500px;
+            bottom: 100px;
+            h2{
+                
+                font-size: 40px;
+
+            }
+        }
+
+        .img-div{
+            right: 50px;
+            img{
+                height: 600px;
+                
+            }
+        }
+    }
+}    
+     /**product section start here**/
+.product{
+        .last-part{
+            height: 520px;
+            .btn-div{
+                width: 90px;
+                position: absolute;
+                bottom: 0;
+                left: 300px;
+            }
+            .card-one{
+                bottom: 400px;
+                left: 100px;
+            }
+            .card-two{
+                bottom: 400px;
+                left: 360px;
+            }
+            .card-three{
+                bottom: 80px;
+                left: 100px;
+            }
+            .card-four{
+                bottom: 80px;
+                left: 360px;
+            }
+        }
+    }
+/**client review section start here**/
+
+.client-review{
+    .imageOne{
+        img{
+            left: 0;
+            bottom: 0;
+            height: 400px;
+            width: 200px;
+        }
+    }
+    .title-part{
+        width: 400px;
+        .first-div{
+            width: 350px;
+        }
+        .main-part{
+            .description{
+                top: 10px;
+                left: 5px;
+                blockquote{
+                    font-size: 12px;
+                    width: 370px;
+                    cite{
+                        margin-left: 10px;
+                    }
+                }
+            }
+        }
+    }
+    .imageTwo{
+        img{
+            right: 0;
+            bottom: 0;
+            height: 400px;
+            width: 200px;
+        }
+    }
+}
+
+ /**blog section start here**/
+ .blog{
+    .h1{
+        font-size: 32px;
+    }
+    .row{
+        padding-left: 80px;
+        
+    }
+ }
+
+    /**professional section start here**/
+
+.professional{
+    .div-1{
+        width: 400px;
+    }
+    .row{
+        padding-left: 80px;
+        
+        
+    }
+}
+/**footer section start here**/
+footer{
+    .newsletter{
+        bottom: 300px;
+        right: 0;
+        height: 300px;
+    
+    }
+    .row{
+        div{
+            padding: 25px 0;
+        }
+    }
+}
+
+
+}
+
+
+/**style for tablet device end here**/
+/**style for large device end here**/
+@media screen and (min-width:992px){
+
+/**hero-image section start here**/
+
+.heroimg{
+    background-image: url(../images/heroimg.png);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 700px;
+    .main-part{
+        position: relative;
+        width: 100%;
+        height: 700px; 
+
+        .button-1{
+            @include btnStyle($bg-color);
+            font-size: 20px;
+        }
+        .button-2{
+            @include btnStyle($secondary-color);
+            font-size: 20px;
+        }
+        .title-part{
+            position: absolute;
+            top: 170px;
+            left: 200px;
+            width: 800px;
+            z-index: 1;
+            
+        
+         }   
+        
+        .img-div{
+            position: absolute;
+            bottom: 50px;
+            right: 120px;
+        }
+    }
+   
+        
+     
+}
+
+/**hero-image section end here**/    
+   /**client review section start here**/
+.client-review{
+    background-image: url(../images/heroimg.png);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 500px;
+    .imageOne{
+        img{
+            position: absolute;
+            bottom: 0;
+            left: 80px;
+            height: 500px;
+            width: 300px;
+        }
+        
+    }
+    .title-part{
+        position: absolute;
+        width: 670px;
+        height: 380px;
+        bottom: 70px;
+        left: -40px;
+        z-index: 1;
+        .main-part{
+            height: 380px;
+            width: 670px;
+            background-color: $bg-color;
+            opacity: 0.8;
+            
+            .description{
+                position: absolute;
+                top: 20px;
+                left: 30px;
+                text-align: center;
+                img{
+                    height: 120px;
+                    width: 120px;
+                    border-radius: 50%;
+                    
+                    border: 5px solid $secondary-color;
+                    padding: 10px;
+                }
+                blockquote{
+                    text-align: justify;
+                    text-align-last: center;
+                    width: 570px;
+                    
+    
+                    cite{
+                        font-size:20px ;
+                        border-top: 1px solid white;
+                        border-radius: 0;
+                        width: 200px;
+                        margin: 30px 0 0 130px;
+                    }
+                }
+                
+            }
+        }
+    }
+    .imageTwo{
+        img{
+            position: absolute;
+            bottom: 0;
+            right: 80px;
+            height: 500px;
+            width: 300px;
+        }
+        
+    }
+}
+
+/**client review section end here**/
+/**product section start here**/
+.product{
+    .div-one{
+      width: 500px;
+      margin: 0 auto;
+
+   }
+   
+      .last-part{
+          background-color: $bg-color;
+          height: 250px;
+          width: 100%;
+          margin-top: 250px;
+
+          .btn-div{
+              width: 90px;
+              position: absolute;
+              bottom: 0;
+              left: 520px;
+          }
+      
+          .image-1{
+              position: absolute;
+              bottom: -10px;
+              left: -40px;
+              height: 200px;
+              width: 300px;
+  
+          }   
+          .image-2{
+              position: absolute;
+              bottom: 0;
+              right: 0;
+              height: 200px;
+              width: 200px;
+  
+          }   
+          div{
+              img{
+                  height: 200px;
+                  width: 250px;
+              }
+          } 
+          .card-one{
+             @include cardStyle(60px); 
+          } 
+          .card-two{
+              @include cardStyle(320px); 
+           } 
+           .card-three{
+              @include cardStyle(580px); 
+           } 
+           .card-four{
+              @include cardStyle(840px); 
+           } 
+          
+      
+     }
+  
+  
+}
+/**product section end here**/
+}
+/**style for large device end here**/
+
+@media screen and (min-width:1400px){
+    
+
+}

@@ -1,0 +1,11 @@
+
+@mixin cardStyle($left){
+    height: 300px;
+    width: 220px;
+    padding: 0 5px;            
+    position: absolute;
+    bottom:150px ;
+    left: $left;
+    z-index: 1;
+    background-color: white;
+}

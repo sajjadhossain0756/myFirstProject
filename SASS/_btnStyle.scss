@@ -1,0 +1,8 @@
+@mixin btnStyle($background){
+    width: 100px;
+    height: 40px;
+    padding: 10px 20px;
+    color: white;
+    background-color: $background;
+    text-decoration: none;
+}
